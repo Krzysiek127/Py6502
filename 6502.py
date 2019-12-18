@@ -4,6 +4,7 @@
 import os,time
 
 clock = float(input("Clock Speed? "))
+os.system('cls')
 RAM = []
 
 running = True
@@ -12,6 +13,7 @@ showMon = ""
 
 RamShowMin = int(input("Min. Ram monitor? "),base=16)
 RamShowMax = int(input("Max. Ram monitor? "),base=16)
+os.system('cls')
 
 if RamShowMin==0 and RamShowMax == 0:
     RamMonShow = False
